@@ -20,6 +20,6 @@ for key in cardname["redDeck"]:
 
 
 print(green)
-
+print(red)
 
 
