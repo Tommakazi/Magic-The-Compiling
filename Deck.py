@@ -1,16 +1,17 @@
 import random
+import Card
 
 
 class Deck(list):
-    cards = []
 
-
-def __init__(self, cards):
-    self.cards = cards
+    def __init__(self, name):
+        super().__init__()
+        self.cards = []
+        self.name = name
 
 
 def addcard(self, card):
-    card.setLocation("Deck")
+    card.Location = "Deck"
     self.append(card)
 
 
