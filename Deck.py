@@ -10,30 +10,30 @@ class Deck(list):
         self.name = name
 
 
-def addcard(self, card):
-    card.Location = "Deck"
-    self.append(card)
+    def addcard(self, card):
+        card.Location = "Deck"
+        self.append(card)
 
 
-def draw(self):
-    card = self.pop()
-    card.setLocation("Hand")
-    return card
+    def draw(self):
+        card = self.pop()
+        card.setLocation("Hand")
+        return card
 
 
-def shuffle(self):
-    random.shuffle(self)
+    def shuffle(self):
+        random.shuffle(self)
 
 
-def removecard(self, card):
-    card.setLocation("Graveyard")
-    self.remove(card)
+    def removecard(self, card):
+        card.setLocation("Graveyard")
+        self.remove(card)
 
 
-def findcard(self, card):
-    if card in self:
-     return next(item for item in self if card == self.card)
-    else:
-        return "Card not Found."
+    def findcard(self, card):
+        if card in self:
+         return next(item for item in self if card == self.card)
+        else:
+            return "Card not Found."
 
 

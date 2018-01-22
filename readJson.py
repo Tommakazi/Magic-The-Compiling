@@ -1,12 +1,12 @@
 from pycorenlp import StanfordCoreNLP
 import json
 
-data=open('AllCards.json')
+data=open('Decks.json')
 card=json.load(data)
 
 cardNames = []
-for key in card:
-    cardName = card[key]['name']
+for key in card['greenDeck']:
+    cardName = key
     cardNames.append(cardName)
 
 
@@ -16,20 +16,21 @@ nlp = StanfordCoreNLP('http://localhost:9000')
 nlpOutputs = []
 pairs = []
 finalOutputs = []
-with open('depData.txt', 'w') as outfile:
+with open('testData.txt', 'w') as outfile:
     for name in cardNames:
         #print(name)
         if 'text' not in card[name]:
             continue
         output = nlp.annotate(card[name]['text'],
                            properties={
-                               'annotators': 'depparse',
-                               'outputFormat': 'json',
-                           })
+                               'annotators': 'pos',
+                               'outputFormat': 'json'})
+
+
         for i in range(len(output['sentences'])):
-            for j in range(len(output['sentences'][i]['basicDependencies'])):
-                key = output['sentences'][i]['basicDependencies'][j]['dep']
-                value = output['sentences'][i]['basicDependencies'][j]['dependentGloss']
+            for j in range(len(output['sentences'][i]['tokens'])):
+                key = output['sentences'][i]['tokens'][j]['pos']
+                value = output['sentences'][i]['tokens'][j]['word']
                 pair = {key: value}
                 pairs.append(pair)
 
