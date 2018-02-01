@@ -1,29 +1,33 @@
-{{"greenDeck":
-{"Archweaver": "3"},
-{"Drove of Elves: 2},
-{"Elvish Mystic: 4},
-{"Elvish Visionary: 4},
-{"Force of Nature: 1},
-{"Garruk's Packleader: 2},
-{"Kalonian Tusker: 4},
-{"Wood Elves: 2},
-{"Fog: 2},
-{"Giant Growth: 4},
-{"Forrest: 24},
-{"Explore: 4},
-{"Wild Growth, 4}},
-{"redDeck:
-{"Goblin Arsonist: 3},
-{"Impetuous Sunchaser: 4},
-{"Jeska, Warrior Adept: 1},
-{"Kiln Feind: 3},
-{"Spark Elemental: 3},
-{"Assault Strobe: 4},
-{"Disintegrate: 4},
-{"Flame Slash: 3},
-{"Traitorous Blood: 2},
-{"Collateral Damage: 4},
-{"Lightning Strike": "4"},
-{"Rush of Adrenaline": "4"},
-{"Mountain", "22"}}}
+{
+  "greenDeck": {
+    "Archweaver": "3",
+    "Drove of Elves": "2",
+    "Elvish Mystic": "4",
+    "Elvish Visionary": "4",
+    "Force of Nature": "1",
+    "Garruk's Packleader": "2",
+    "Kalonian Tusker": "4",
+    "Wood Elves": "2",
+    "Fog": "2",
+    "Giant Growth": "4",
+    "Forrest": "24",
+    "Explore": "4",
+    "Wild Growth": "4"
+  },
+  "redDeck": {
+    "Goblin Arsonist": "3",
+    "Impetuous Sunchaser": "4",
+    "Jeska, Warrior Adept": "1",
+    "Kiln Feind": "3",
+    "Spark Elemental": "3",
+    "Assault Strobe": "4",
+    "Disintegrate": "4",
+    "Flame Slash": "3",
+    "Traitorous Blood": "2",
+    "Collateral Damage": "4",
+    "Lightning Strike": "4",
+    "Rush of Adrenaline": "4",
+    "Mountain": "22"
+  }
+}
 
