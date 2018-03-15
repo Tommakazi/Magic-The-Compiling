@@ -1,0 +1,51 @@
+
+{
+"trainingKey": {
+"Keyword":{
+"0": "None",
+"1": "Trample",
+"2": "First Strike",
+"3": "Lifelink",
+"4": "Reach",
+"5": "Deathtouch",
+"6": "Flying",
+"7": "Hexproof",
+"8": "Haste",
+"9": "Double Strike",
+"A": "Vigilance",
+"B": "Defender"},
+"Catagory":{
+"0": "None",
+"1": "Damage",
+"2": "Location",
+"3": "P/T",
+"4": "Summon",
+"5": "Battle",
+"6": "Mana",
+"7": "Counter",
+"8": "Life",
+"9": "Draw",
+"A": "Pay",
+"B": "Retrieve",
+"C": "Play a Card",
+"D": "Discard",
+"E": "Tap",
+"F": "Control",
+"G": "Destroy"},
+"Initiate": {
+"0": "Passive",
+"1": "EnterLoc",
+"2": "Upkeep",
+"3": "Instant",
+"4": "Sorcery",
+"5": "Tap",
+"6": "Triggered",
+"7": "Sacrifice"},
+"ResultLoc":{
+"0": "Battlefield",
+"1": "Graveyard",
+"2": "Library",
+"3": "Hand",
+"4": "Attach",
+"5": "Land"}
+}
