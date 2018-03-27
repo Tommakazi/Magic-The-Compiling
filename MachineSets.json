@@ -1,7 +1,7 @@
 {
 "trainingSet":{
-"Archweaver": "4,0,0,0",
-"Drove of Elves": "7,3,0,0",
+"Archweaver": "self-location, self-permAttribute",
+"Drove of Elves": "self-location, self-permAttribute, self-P/T",
 "Elvish Mystic": "0,6,5,0",
 "Elvish Visionary": "0,9,1,0",
 "Force of Nature": "1,A,2,0",

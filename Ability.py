@@ -1,4 +1,18 @@
+from sklearn.feature_extraction.text import TfidfTransformer, CountVectorizer
+from sklearn.naive_bayes import MultinomialNB
+from sklearn.linear_model import SGDClassifier
+from sklearn.pipeline import Pipeline
+import numpy as np
 import json
+
+
+text_clf = Pipeline([('vect', CountVectorizer()),
+                     ('tfidf', TfidfTransformer()),
+                     ('clf', SGDClassifier(loss='hinge', penalty='l2',
+                                           alpha=1e-3, random_state=42,
+                                           max_iter=5, tol=None)),
+])
+
 
 class Ability(object):
 
@@ -7,38 +21,43 @@ class Ability(object):
         self.activate = ""
         self.type = ""
         self.modifier = []
+        self.keywords = []
 
     def set_type(self, Card):
         name = Card.name
         colors = ['G', 'B', 'U', 'R', 'W']
+        mtgEvergreenAbilities = ['Deathtouch', 'Defender', 'Double Strike', 'Enchant', 'Equip', 'First Strike', 'Flash',
+                                 'Flying', 'Haste', 'Hexproof', 'Indestructible', 'Lifelink', 'Menace', 'Prowess',
+                                 'Reach', 'Trample', 'Vigilance']
+        ability = []
 
         with open("tokenData.json", 'w') as outfile:
-            token = json.load("tokenData.json")
+            token = json.load(outfile)
 
-            for card in token[name]:
-                if 'POS' in card:
-                    if 'Power' in card:
-                        if 'toughness' in card:
-                            self.type = "pandt"
-                        self.type = "power"
-                        self.activate = "constant"
+            if 'Creature' or 'Planeswalker' or 'Enchantment' in Card['types']:
+                ability.append("Summon Battlefield")
 
-                if 'T' in card['NN']:
-                    self.activate = "tap"
-                    if 'Add' in card['VB']:
-                        if card['NN'][1] in colors:
-                            self.modifier = card['NN'][1]
-                            self.type = "mana"
-                if 'enters' in card['VBZ'][1]:
-                    if 'battlefield' == card['NN'][1]:
-                        self.activate = "enters"
-                        if 'CD' not in card:
-                            if 'draw' in card['VB']:
-                                self.type = "draw"
-                                self.modifier = "1"
-                if 'Land' in Card.types:
-                    self.activate = "tap"
-                    self.modifier = Card.colors
-                    self.type = "land"
+            if 'Land' in Card['types']:
+                ability.append("Summon Land")
+
+            if 'text' not in Card:
+                return ability
+
+
+            sentences = Card['text'].splitlines()
+
+            for sentence in sentences:
+                if sentence in mtgEvergreenAbilities:
+                    ability.append(sentence)
+
+                ability.append(text_clf.predict(sentence))
+
+
+
+
+
+
+
+
 
 

@@ -1,4 +1,5 @@
 import json
+import Ability
 
 class Card(object):
 
@@ -18,6 +19,7 @@ class Card(object):
         self.colorIdentity = ""
         self.isTapped = False
         self.location = ""
+        self.abilities = []
 
     def make_card(cardname, deck):
         data = open('AllCards.json')
@@ -64,6 +66,8 @@ class Card(object):
 
         card.isTapped = False
         card.location = deck
+
+
 
         return card
 
