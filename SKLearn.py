@@ -31,7 +31,13 @@ print(catagories[0])
 
 trainingSet = []
 for name in cardNames:
-    trainingSet.append(str(card2[name]))
+    sentences = card2[name]['text'].splitlines()
+
+    for sentence in sentences:
+        if sentence in mtgEvergreenAbilities:
+            ability.append(sentence)
+
+        trainingSet.append(str(card2[name]))
 print(trainingSet[0])
 
 allCards = []
