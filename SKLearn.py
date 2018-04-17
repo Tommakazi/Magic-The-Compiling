@@ -1,63 +1,71 @@
-from sklearn.feature_extraction.text import TfidfTransformer, CountVectorizer
+from sklearn.feature_extraction.text import TfidfVectorizer, CountVectorizer
+from sklearn.feature_extraction import DictVectorizer
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.linear_model import SGDClassifier
+from sklearn.svm import LinearSVC
+from sklearn.ensemble import RandomForestClassifier
 from sklearn.pipeline import Pipeline
 import numpy as np
 import json
+import pandas as pd
 
-text_clf = Pipeline([('vect', CountVectorizer()),
-                     ('tfidf', TfidfTransformer()),
-                     ('clf', SGDClassifier(loss='hinge', penalty='l2',
-                                           alpha=1e-3, random_state=42,
-                                           max_iter=5, tol=None)),
-])
+clf = LinearSVC()
+vec = TfidfVectorizer()
 
+data2 = open('AllCards.json')
+card2 = json.load(data2)
 
-data=open('MachineSets.json')
-card=json.load(data)
-
-data2=open('AllCards.json')
-card2=json.load(data2)
-
-cardNames = []
-catagories = []
-
-for key in card['trainingSet']:
-    cardName = key
-    cardNames.append(cardName)
-    catagories.append(card['trainingSet'][key])
-print(catagories[0])
+dataframe = pd.read_csv('trainingSet.csv')
 
 
-trainingSet = []
-for name in cardNames:
-    sentences = card2[name]['text'].splitlines()
+cols = ['targetPow', 'targetLoc', 'targetAttr', 'targetCounter', 'targetCopy', 'targetControl', 'targetDestroy', 'targetExile', 'targetAttach',
+        'targetDamage', 'targetTap', 'selfPow', 'selfLoc', 'selfAttr', 'selfCounter', 'selfTap', 'batPow', 'batAttr', 'batCounter', 'batOther', 'batLand',
+        'playerLife', 'playerDiscard', 'playerMana', 'playerDraw', 'playerSac', 'playerRet', 'playerMill', 'playerScry']
 
-    for sentence in sentences:
-        if sentence in mtgEvergreenAbilities:
-            ability.append(sentence)
-
-        trainingSet.append(str(card2[name]))
-print(trainingSet[0])
 
 allCards = []
 for key in card2:
-    allCards.append(str(card2[key]))
+    if 'text' not in card2[key]:
+        continue
+    sent = (card2[key]['text'].splitlines())
+    for sentence in sent:
+        allCards.append(sentence)
 print(allCards[0])
+vec.fit(allCards)
 
-#text_clf.fit(allCards)
-#document_trans = text_clf.transform(trainingSet)
+temp = ""
+X = []
+x = dataframe[list(cols)].values
+for ls in x:
+    for item in ls:
+        temp += str(item)
+    X.append(temp)
+    temp = ""
+print(len(X))
+y = dataframe['Sentence'].values
+Y = vec.transform(y)
+print(Y.shape)
 
+clf.fit(Y, X)
 
-text_clf.fit(trainingSet, catagories)
+df = pd.read_csv('testSet.csv')
+test1 = df['Sentence'].values
+test2 = vec.transform(test1)
 
-newcards = ["Fireball", "Cancel", "Silvercoat Lion", "Serra Angel", "Nissa's Chosen", "Stalwart Shield-Bearers"]
-newdoc = []
-for name in newcards:
-    newdoc.append(str(card2[name]))
+predicted = clf.predict(test2.toarray())
 
-#newcards_trans = text_clf.transform(newdoc)
+data1 = open('TrainingKey.json')
+keySet = json.load(data1)
 
-predicted = text_clf.predict(newdoc)
-print(predicted)
+positions = []
+keys = []
+allkeys = []
+for value in predicted:
+    positions.append([pos for pos, char in enumerate(value) if char == '1'])
+for i in positions:
+    for j in i:
+        keys.append(keySet[str(j)])
+    allkeys.append(keys)
+    keys = []
 
+print(list(zip(test1, allkeys)))

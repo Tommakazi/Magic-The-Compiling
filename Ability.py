@@ -43,7 +43,6 @@ class Ability(object):
             if 'text' not in Card:
                 return ability
 
-
             sentences = Card['text'].splitlines()
 
             for sentence in sentences:

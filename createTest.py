@@ -2,35 +2,35 @@ import json
 import random
 
 
+mtgEvergreenAbilities = ['Deathtouch', 'Defender', 'Double Strike', 'Enchant', 'Equip', 'First Strike', 'Flash',
+                         'Flying', 'Haste', 'Hexproof', 'Indestructible', 'Lifelink', 'Menace', 'Prowess',
+                         'Reach', 'Trample', 'Vigilance']
 
-def Get_Random_Set:
-    mtgEvergreenAbilities = ['Deathtouch', 'Defender', 'Double Strike', 'Enchant', 'Equip', 'First Strike', 'Flash',
-                             'Flying', 'Haste', 'Hexproof', 'Indestructible', 'Lifelink', 'Menace', 'Prowess',
-                             'Reach', 'Trample', 'Vigilance']
+training_set = []
+set_names = []
 
-    training_set = []
-    set_names = []
+data = open('tokenData.json')
+tokens = json.load(data)
 
-    with open("tokenData.json", 'w') as token:
-        tokens = json.load(token)
+data2 = open('AllCards.json')
+card = json.load(data2)
 
-    with open("AllCards.json", 'w') as outfile:
-        card = json.load(outfile)
+with open("sentences.txt", 'w') as outfile2:
 
-        cardnames = []
-        for item in card:
-            if 'text' not in card[item]:
+    card_names = []
+    for item in card:
+        if 'text' not in card[item]:
+                        continue
+        card_names.append(card[item]['name'])
+
+    for i in range(200):
+        random_number = random.randint(0, 17000)
+        current_card = card_names[random_number]
+        sentences = card[current_card]['text'].splitlines()
+
+        for sentence in sentences:
+            if sentence in mtgEvergreenAbilities:
                 continue
-            cardnames.append(item['name'])
+            outfile2.write(sentence + "\n")
+            set_names.append(card[current_card]['name'])
 
-        for i in range(400):
-            random_card = random.choice(cardnames)
-
-            sentences = card[random_card]['text'].splitlines()
-
-
-            for sentence in sentences:
-                if sentence in mtgEvergreenAbilities:
-                    continue
-                training_set.append(sentence)
-                set_names.append(card[random_card]['name'])
