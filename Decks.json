@@ -10,7 +10,6 @@
     "Wood Elves": "2",
     "Fog": "2",
     "Giant Growth": "4",
-    "Forrest": "24",
     "Explore": "4",
     "Wild Growth": "4"
   },
@@ -18,7 +17,7 @@
     "Goblin Arsonist": "3",
     "Impetuous Sunchaser": "4",
     "Jeska, Warrior Adept": "1",
-    "Kiln Feind": "3",
+    "Kiln Fiend": "3",
     "Spark Elemental": "3",
     "Assault Strobe": "4",
     "Disintegrate": "4",
@@ -26,8 +25,7 @@
     "Traitorous Blood": "2",
     "Collateral Damage": "4",
     "Lightning Strike": "4",
-    "Rush of Adrenaline": "4",
-    "Mountain": "22"
+    "Rush of Adrenaline": "4"
   }
 }
 

@@ -417,3 +417,28 @@ Sentence,Feature
 "As Sol Grail enters the battlefield, choose a color.",00000000000000000000010010000
 "Cycling {2} ({2}, Discard this card: Draw a card.)",00100000001000000000000000000
 "{T}: Add {B} to your mana pool.",00000000000000000000001010000
+"Drove of Elves's power and toughness are each equal to the number of green permanents you control.",00000000000100000000000000000
+""{T}: Add {G} to your mana pool.",00000000000000000000000100000
+"When Elvish Visionary enters the battlefield, draw a card.",00000000000000000000000010000
+"At the beginning of your upkeep, Force of Nature deals 8 damage to you unless you pay {G}{G}{G}{G}.",00000000000000000000010000000
+"Whenever another creature with power 3 or greater enters the battlefield under your control, you may draw a card.",00000000000000000000000010000
+"When Wood Elves enters the battlefield, search your library for a Forest card and put that card onto the battlefield. Then shuffle your library.",00000000000000000000000000100
+"Prevent all combat damage that would be dealt this turn.",00000000000000000100000000000
+"Target creature gets +3/+3 until end of turn.",10000000000000000000000000000
+"You may play an additional land this turn.",01000000000000000000000000000
+"Draw a card.",00000000000000000000000010000
+"Enchant land",00000000100000000000000000000
+"Whenever enchanted land is tapped for mana, its controller adds {G} to his or her mana pool (in addition to the mana the land produces).",00000000000000000000000100000
+"When Goblin Arsonist dies, you may have it deal 1 damage to target creature or player.",00000000010000000000000000000
+"Impetuous Sunchaser attacks each combat if able.",00000000000001000000000000000
+"{T}: Jeska, Warrior Adept deals 1 damage to target creature or player.",00000000010000000000000000000
+"Whenever you cast an instant or sorcery spell, Kiln Fiend gets +3/+0 until end of turn.",00000000000100000000000000000
+"At the beginning of the end step, sacrifice Spark Elemental.",00000000000000000000000001000
+"Target creature gains double strike until end of turn. (It deals both first-strike and regular combat damage.)",00100000000000000000000000000
+"Disintegrate deals X damage to target creature or player. That creature can't be regenerated this turn. If the creature would die this turn, exile it instead.",00000000010000000000000000000
+"Flame Slash deals 4 damage to target creature.",00000000010000000000000000000
+"Gain control of target creature until end of turn. Untap it. It gains trample and haste until end of turn.",00000100000000000000000000000
+"As an additional cost to cast Collateral Damage, sacrifice a creature.",00000000000000000000000001000
+"Collateral Damage deals 3 damage to target creature or player.",00000000010000000000000000000
+"Lightning Strike deals 3 damage to target creature or player.",00000000010000000000000000000
+"Target creature gets +2/+1 and gains trample until end of turn.",10000000000000000000000000000
