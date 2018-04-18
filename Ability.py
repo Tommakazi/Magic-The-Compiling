@@ -6,14 +6,6 @@ import numpy as np
 import json
 
 
-text_clf = Pipeline([('vect', CountVectorizer()),
-                     ('tfidf', TfidfTransformer()),
-                     ('clf', SGDClassifier(loss='hinge', penalty='l2',
-                                           alpha=1e-3, random_state=42,
-                                           max_iter=5, tol=None)),
-])
-
-
 class Ability(object):
 
     # The class "constructor" - It's actually an initializer
@@ -40,7 +32,7 @@ class Ability(object):
             if 'Land' in Card['types']:
                 ability.append("Summon Land")
 
-            if 'text' not in Card:
+            if Card.text == "":
                 return ability
 
             sentences = Card['text'].splitlines()

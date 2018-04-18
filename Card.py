@@ -14,12 +14,15 @@ class Card(object):
         self.types = ""
         self.subtypes = ""
         self.text = ""
-        self.power = 0
-        self.toughness = 0
+        self.power = 1
+        self.toughness = 1
         self.colorIdentity = ""
         self.isTapped = False
         self.location = ""
         self.abilities = []
+        self.controller = ""
+        self.attributes = []
+        self.counters = []
 
     def make_card(cardname, deck):
         data = open('AllCards.json')

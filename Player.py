@@ -12,7 +12,7 @@ class Player(object):
         self.hasLost = hasLost
 
     def create_player(name):
-        mana = {"White": 0, "Blue": 0, "Black": 0, "Red": 0, "Green": 0, "Total": 0,  }
+        mana = {"White": 0, "Blue": 0, "Black": 0, "Red": 0, "Green": 0, "Total": 0}
         lifePoints = 20
         hasLost = False
         player = Player(name, mana, lifePoints, hasLost)

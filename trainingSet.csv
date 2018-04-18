@@ -1,320 +1,419 @@
-Sentence,targetPow,targetLoc,targetAttr,targetCounter,targetCopy,targetControl,targetDestroy,targetExile,targetAttach,targetDamage,targetTap,selfPow,selfLoc,selfAttr,selfCounter,selfTap,batPow,batAttr,batCounter,batOther,batLand,playerLife,playerDiscard,playerMana,playerDraw,playerSac,playerRet,playerMill,playerScry
-"Whenever Hungry Spriggan attacks, it gets +3/+3 until end of turn.",0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Whenever a creature you control dies, you gain life equal to that creature's toughness.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-"When Keiga, the Tide Star dies, gain control of target creature.",0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Destroy target artifact or enchantment, then populate. (Create a token that's a copy of a creature token you control.)",0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
-"When Razor Hippogriff enters the battlefield, return target artifact card from your graveyard to your hand. You gain life equal to that card's converted mana cost.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-"Target creature gets -5/-5 until end of turn.",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Target opponent puts the top thirteen cards of his or her library into his or her graveyard.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
-"When Onulet dies, you gain 2 life.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-"Draw X cards. For each card drawn this way, discard a card unless you sacrifice a permanent.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0
-"Enchant creature, At the beginning of your upkeep, put a +1/+1 counter on enchanted creature.",0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"When enchanted creature attacks or blocks, sacrifice Primal Cocoon.",0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Target creature gains protection from artifacts until end of turn.",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Draw a card.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
-"Whenever a creature enters the battlefield, that creature's controller may have it deal damage equal to its power to target creature or player of his or her choice.",0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Draw a card for each creature card in your graveyard.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
-"When Nightshade Assassin enters the battlefield, you may reveal X black cards in your hand. If you do, target creature gets -X/-X until end of turn.",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"{T}: Add {C} to your mana pool.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
-"{T}: Untap target attacking creature an opponent controls and remove it from combat.",0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Whenever Hydra Omnivore deals combat damage to an opponent, it deals that much damage to each other opponent.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-"Wu Warship can't attack unless defending player controls an Island.",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"{3}: Search your library for a Sliver card, reveal that card, and put it into your hand. Then shuffle your library.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
-"{3}: Gain control of target Sliver. (This effect lasts indefinitely.)",0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"When Markov Warlord enters the battlefield, up to two target creatures can't block this turn.",0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Forestwalk (This creature can't be blocked as long as defending player controls a Forest.)",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Discard a card: Putrid Imp gains flying until end of turn.",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"{2}{B}: Regenerate Asphodel Wanderer.",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"When Akki Blizzard-Herder dies, each player sacrifices a land.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
-"{T}: Untap target attacking creature. Prevent all combat damage that would be dealt to and dealt by that creature this turn.",0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Whenever Serra Inquisitors blocks or becomes blocked by one or more black creatures, Serra Inquisitors gets +2/+0 until end of turn.",0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Prevent all combat damage that would be dealt this turn by attacking creatures.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
-"Regenerate target creature. Draw a card. (The next time the creature would be destroyed this turn, it isn't. Instead tap it, remove all damage from it, and remove it from combat.)",0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
-"When Sin Collector enters the battlefield, target opponent reveals his or her hand. You choose an instant or sorcery card from it and exile that card.",0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Enchant creature, Enchanted creature gets +4/+4, has flying and first strike, and is an Angel in addition to its other types.",1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"When enchanted creature dies, return Angelic Destiny to its owner's hand.",0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Create a token that's a copy of target creature you control.",0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"When Returned Reveler dies, each player puts the top three cards of his or her library into his or her graveyard.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
-"Destroy six target creatures.",0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"{B}, Sacrifice Pus Kami: Destroy target nonblack creature.",0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"{2}{B}, Sacrifice a creature: Each other player sacrifices a creature.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
-"{2}{R}, Sacrifice an artifact: Each other player sacrifices an artifact.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
-"{2}{G}, Sacrifice an enchantment: Each other player sacrifices an enchantment.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
-"Wither (This deals damage to creatures in the form of -1/-1 counters.)",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"{1}{B}: Regenerate Cinderbones.",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Attacking creatures you control have first strike.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-"Whenever a Vampire you control deals combat damage to a player, put a +1/+1 counter on it.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Madness {2}{R} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Ursine Fylgja enters the battlefield with four healing counters on it.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Remove a healing counter from Ursine Fylgja: Prevent the next 1 damage that would be dealt to Ursine Fylgja this turn.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"{2}{W}: Put a healing counter on Ursine Fylgja.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Creature cards can't enter the battlefield from graveyards or libraries.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
-"Players can't cast spells from graveyards or libraries.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
-"{R}: Flowstone Salamander deals 1 damage to target creature blocking it.",0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Morph {3}{R} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"When Thalia's Lancers enters the battlefield, you may search your library for a legendary card, reveal it, put it into your hand, then shuffle your library.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
-"Equipped creature has Unattach Blinding Powder: Prevent all combat damage that would be dealt to this creature this turn.",0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)",0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"{T}: Add {C} to your mana pool.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
-"{T}: Put a charge counter on Mirrodin's Core.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"{T}, Remove a charge counter from Mirrodin's Core: Add one mana of any color to your mana pool.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
-"{T}: Target player loses 1 life.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-"Exile target creature card from a graveyard. Create a 2/2 black Zombie creature token.",0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
-"Forestwalk (This creature can't be blocked as long as defending player controls a Forest.)",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"{T}: Target land becomes the basic land type of your choice until end of turn.",0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"You gain X life if {G} was spent to cast Dawnglow Infusion and X life if {W} was spent to cast it. (Do both if {G}{W} was spent.)",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-"{3}: Urza deals 1 damage to target creature or player.",0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Rolling Temblor deals 2 damage to each creature without flying.",0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Flashback {4}{R}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Return target creature card from your graveyard to your hand.",0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Recover {2}{B} (When a creature is put into your graveyard from the battlefield, you may pay {2}{B}. If you do, return this card from your graveyard to your hand. Otherwise, exile this card.)",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Search your library for up to two basic land cards and reveal them. Put one into your hand and the other into your graveyard. Then shuffle your library.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
-"Flash (You may cast this spell any time you could cast an instant.)",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Whenever you cast a spell, you may return Voidmage Husher to its owner's hand.",0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"{T}: Switch target creature's power and toughness until end of turn.",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"If a Zombie you control would deal combat damage to a player, instead that player puts that many cards from the top of his or her library into his or her graveyard.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
-"Whenever a creature card is put into an opponent's graveyard from his or her library, exile that card and create a 2/2 black Zombie creature token.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
-"{W}: Soltari Emissary gains shadow until end of turn. (It can block or be blocked by only creatures with shadow.)",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Whenever you cycle or discard a card, Pitiless Vizier gains indestructible until end of turn. (Damage and effects that say destroy don't destroy it. If its toughness is 0 or less, it's still put into its owner's graveyard.)",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Equipped creature has flying.",0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)",0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"{3}{R}: Gain control of target creature an opponent controls until end of turn. Untap that creature. It gains haste until end of turn. Activate this ability only any time you could cast a sorcery.",0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Creatures you control have hexproof. (They can't be the targets of spells or abilities your opponents control.)",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
-"{1}{G}: Regenerate target creature.",0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Return each creature that dealt damage this turn to its owner's hand.",0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"At the beginning of your upkeep, sacrifice a non-Zombie creature, then create a 2/2 black Zombie creature token.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0
-"{2}: Put the top card of your graveyard on the bottom of your library.",0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"{0}: Until end of turn, Jodah's Avenger gets -1/-1 and gains your choice of double strike, protection from red, vigilance, or shadow. (A creature with shadow can block or be blocked by only creatures with shadow.)",0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"+1: Put a loyalty counter on Gideon, Champion of Justice for each creature target opponent controls.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"0: Until end of turn, Gideon, Champion of Justice becomes a Human Soldier creature with power and toughness each equal to the number of loyalty counters on him and gains indestructible. He's still a planeswalker. Prevent all damage that would be dealt to him this turn.",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"{1}: Look at the top three cards of your library, then put them back in any order.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
-"{T}: Draw a card, then put Sensei's Divining Top on top of its owner's library.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
-"As an additional cost to cast Restless Dreams, discard X cards.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
-"Return X target creature cards from your graveyard to your hand.",0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Whenever an Island an opponent controls becomes tapped, you may gain 1 life.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-"({T}: Add {U} or {R} to your mana pool.)",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
-"Dauntless River Marshal gets +1/+1 as long as you control an Island.",0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"{3}{U}: Tap target creature.",0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Until end of turn, all creatures gain {T}: This creature deals damage equal to its power to target creature.",0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Enchant creature, When Knightly Valor enters the battlefield, create a 2/2 white Knight creature token with vigilance. (Attacking doesn't cause it to tap.)",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
-"Enchanted creature gets +2/+2 and has vigilance.",1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Whenever Dromosaur blocks or becomes blocked, it gets +2/-2 until end of turn.",0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Destroy target creature. Its controller loses 2 life.",0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-"At the beginning of your upkeep, you may put the top card of your library into your graveyard.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
-"Whenever Ohran Viper deals combat damage to a creature, destroy that creature at end of combat.",0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Whenever Ohran Viper deals combat damage to a player, you may draw a card.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
-"Flash (You may cast this spell any time you could cast an instant.)",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"{3}: Target green creature gets +1/+1 until end of turn.",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Trusty Companion can't attack alone.",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Dimir Guildgate enters the battlefield tapped.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
-"{T}: Add {U} or {B} to your mana pool.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
-"When Gladehart Cavalry enters the battlefield, support 6. (Put a +1/+1 counter on each of up to six other target creatures.)",0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Whenever a creature you control with a +1/+1 counter on it dies, you gain 2 life.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-"{8}, {T}: Tower of Calamities deals 12 damage to target creature.",0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"When Mwonvuli Beast Tracker enters the battlefield, search your library for a creature card with deathtouch, hexproof, reach, or trample and reveal it. Shuffle your library and put that card on top of it.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
-"At the beginning of each player's upkeep, Power Surge deals X damage to that player, where X is the number of untapped lands he or she controlled at the beginning of this turn.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-"{1}{R}: Hematite Golem gets +2/+0 until end of turn.",0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"When Sharuum the Hegemon enters the battlefield, you may return target artifact card from your graveyard to the battlefield.",0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Destroy target enchantment.",0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"{T}: Add {C} to your mana pool.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
-"{W/U}, {T}: Add {W}{W}, {W}{U}, or {U}{U} to your mana pool.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
-"When you set this scheme in motion, each opponent's life total becomes the lowest life total among your opponents.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-"{1}, Sacrifice Traveler's Amulet: Search your library for a basic land card, reveal it, and put it into your hand. Then shuffle your library.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
-"Whenever another creature enters the battlefield, its controller loses 1 life.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-"When you set this scheme in motion, choose an opponent with the highest life total among your opponents. That player loses 7 life.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-"{T}: Target creature gets +1/+1 until end of turn.",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Whenever you cast a spell, you may untap Leonin Battlemage.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Each player returns all creature cards from his or her graveyard to the battlefield.",0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"{T}: Prevent the next 1 damage that would be dealt to target creature or player this turn.",0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Whenever you cast a white spell, Loyal Gyrfalcon loses defender until end of turn.",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"{T}: Add {C} to your mana pool.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
-"{1}, {T}: Attacking creatures get +1/+0 until end of turn.",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"When Glint Hawk enters the battlefield, sacrifice it unless you return an artifact you control to its owner's hand.",0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Triton Shorestalker can't be blocked.",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Target creature has base power and toughness 1/1 until end of turn.",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Other creatures you control get +0/+2 and have vigilance.",1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Whenever Vengeful Dead or another Zombie dies, each opponent loses 1 life.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-"Infect (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Discard a card, Sacrifice Overeager Apprentice: Add {B}{B}{B} to your mana pool.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
-"{W}, {T}: Target blocking creature gets +2/+2 until end of turn.",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Reach (This creature can block creatures with flying.)",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Evolve (Whenever a creature enters the battlefield under your control, if that creature has greater power or toughness than this creature, put a +1/+1 counter on this creature.)",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Enchant creature, Enchanted creature gets +2/+4.",1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"{G}: Regenerate Locust Swarm.",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"{G}: Untap Locust Swarm. Activate this ability only once each turn.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Each opponent loses 3 life. You gain life equal to the life lost this way.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-"Whenever Arashin Foremost enters the battlefield or attacks, another target Warrior creature you control gains double strike until end of turn.",0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Other Minotaur creatures you control have deathtouch.",0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"{R}: Avatar of Fury gets +1/+0 until end of turn.",0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"{T}: Add {G} to your mana pool.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
-"Islandwalk (This creature can't be blocked as long as defending player controls an Island.)",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Whenever Colossal Whale attacks, you may exile target creature defending player controls until Colossal Whale leaves the battlefield. (That creature returns under its owner's control.)",0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Target player reveals his or her hand. You choose a Spirit or Arcane card from it. That player discards that card.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
-"Swampwalk (This creature can't be blocked as long as defending player controls a Swamp.)",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"When Blistergrub dies, each opponent loses 2 life.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-"Counter target spell. Its controller discards a card.",0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
-"{R}: Flowstone Salamander deals 1 damage to target creature blocking it.",0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Create a 6/6 green Wurm creature token.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
-"Flashback {3}{G} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"{2}: Narstad Scrapper gets +1/+0 until end of turn.",0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"{U/R}: Switch Crag Puca's power and toughness until end of turn.",0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Mountain Valley enters the battlefield tapped.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
-"{T}, Sacrifice Mountain Valley: Search your library for a Mountain or Forest card and put it onto the battlefield. Then shuffle your library.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
-"{T}: Prevent the next 1 damage that would be dealt to target creature or player this turn.",0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Spike Rogue enters the battlefield with two +1/+1 counters on it.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"{2}, Remove a +1/+1 counter from Spike Rogue: Put a +1/+1 counter on target creature.",0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"{2}, Remove a +1/+1 counter from a creature you control: Put a +1/+1 counter on Spike Rogue.",0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Create three 2/2 white Knight creature tokens. Exile them at the beginning of the next cleanup step.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
-"Protection from everything",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"If Progenitus would be put into a graveyard from anywhere, reveal Progenitus and shuffle it into its owner's library instead.",0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"{2}: Target white or black creature gains flying until end of turn. (It can't be blocked except by creatures with flying or reach.)",0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Destroy target land. Create a 1/1 red Goblin creature token.",0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
-"{4}, {T}: You may put a creature card from your hand onto the battlefield.",0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Ember Beast can't attack or block alone.",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Other Goblin creatures you control get +1/+1.",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"{T}: Regenerate another target Goblin.",0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Target creature gets +1/+0 and gains first strike until end of turn.",1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Draw a card.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
-"Whenever a player taps an Island for mana, Scald deals 1 damage to that player.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-"Burning Oil deals 3 damage to target attacking or blocking creature.",0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"When Fleetwheel Cruiser enters the battlefield, it becomes an artifact creature until end of turn.",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"When Ranger of Eos enters the battlefield, you may search your library for up to two creature cards with converted mana cost 1 or less, reveal them, and put them into your hand. If you do, shuffle your library.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
-"When Hunted Troll enters the battlefield, target opponent creates four 1/1 blue Faerie creature tokens with flying.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
-"{G}: Regenerate Hunted Troll.",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Return X target creature cards from your graveyard to your hand.",0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"{1}: Untap Staff of Domination.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
-"{2}, {T}: You gain 1 life.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-"{3}, {T}: Untap target creature.",0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"{4}, {T}: Tap target creature.",0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"{5}, {T}: Draw a card.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
-"Whenever a creature you control deals combat damage to a player, you may pay {5}. If you do, create a 5/5 red Dragon creature token with flying.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
-"Sacrifice a Human: Regenerate Fiend of the Shadows.",0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
-"{T}: Add {G}{G} to your mana pool.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
-"Destroy target land.",0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Cycling {2} ({2}, Discard this card: Draw a card.)",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0
-"When Leonin Snarecaster enters the battlefield, you may tap target creature.",0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"{1}{G}: Regenerate target green creature.",0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Rusted Sentinel enters the battlefield tapped.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
-"Whenever another creature dies, Rage Thrower deals 2 damage to target player.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-"When Alaborn Zealot blocks a creature, destroy that creature and Alaborn Zealot.",0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Infect (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"At the beginning of your upkeep, return a black creature you control to its owner's hand.",0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Each noncreature artifact is an artifact creature with power and toughness each equal to its converted mana cost. (Equipment that's a creature can't equip a creature.)",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
-"Sacrifice any number of lands. Search your library for up to that many land cards, put them onto the battlefield tapped, then shuffle your library.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
-"When Glarewielder enters the battlefield, up to two target creatures can't block this turn.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
-"Evoke {1}{R} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters the battlefield.)",0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Heroic — Whenever you cast a spell that targets Wingsteed Rider, put a +1/+1 counter on Wingsteed Rider.",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Whenever an opponent plays a land, you may put a land card from your hand onto the battlefield.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Haste (This creature can attack the turn it comes under your control.)",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
-"Sylvan Yeti's power is equal to the number of cards in your hand.",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Provoke (Whenever this creature attacks, you may have target creature defending player controls untap and block it if able.)",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Ruins of Oran-Rief enters the battlefield tapped.",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"{T}: Add {C} to your mana pool. ({C} represents colorless mana.)",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
-"{T}: Put a +1/+1 counter on target colorless creature that entered the battlefield this turn.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
-"Creatures can't block.",0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Fibrous Entangler must be blocked if able.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
-"Fibrous Entangler can block an additional creature each combat.",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"When Oath of Liliana enters the battlefield, each opponent sacrifices a creature.",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"At the beginning of each end step, if a planeswalker entered the battlefield under your control this turn, create a 2/2 black Zombie creature token.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
-"Discard a card at random: Pardic Lancer gets +1/+0 and gains first strike until end of turn.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
-"Whenever a player casts a spell, you may put a +1/+1 counter on Forgotten Ancient.",1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
-"At the beginning of your upkeep, you may move any number of +1/+1 counters from Forgotten Ancient onto other creatures.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"When Dakmor Lancer enters the battlefield, destroy target nonblack creature.",0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Fear (This creature can't be blocked except by artifact creatures and/or black creatures.)",0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"At the beginning of your upkeep, you may search your library for a Rat card, reveal it, and put it into your hand. If you do, shuffle your library.",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"When Lord of Tresserhorn enters the battlefield, you lose 2 life, you sacrifice two creatures, and target opponent draws two cards.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
-"{B}: Regenerate Lord of Tresserhorn.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0
-"Return target creature to its owner's hand.",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Draw a card.",0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"When Verdant Haven enters the battlefield, you gain 2 life.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
-"Whenever enchanted land is tapped for mana, its controller adds one mana of any color to his or her mana pool (in addition to the mana the land produces).",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-"Magosi, the Waterveil enters the battlefield tapped.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
-"{T}: Add {U} to your mana pool.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
-"{U}, {T}: Put an eon counter on Magosi, the Waterveil. Skip your next turn.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
-"{T}, Remove an eon counter from Magosi, the Waterveil and return it to its owner's hand: Take an extra turn after this one.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0
-"Echo {3}{W} (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay its echo cost.)",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0
-"When Radiant's Dragoons enters the battlefield, you gain 5 life.",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Return up to three target artifacts and/or creatures to their owners' hands.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-"You may cast a card with converted mana cost 4 or less from your hand without paying its mana cost.",0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Whenever Infernal Medusa blocks a creature, destroy that creature at end of combat.",0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Whenever Infernal Medusa becomes blocked by a non-Wall creature, destroy that creature at end of combat.",0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Level up {3}{R} ({3}{R}: Put a level counter on this. Level up only as a sorcery.)",0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"{T}: Brimstone Mage deals 3 damage to target creature or player.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Storm Sculptor can't be blocked.",0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"When Storm Sculptor enters the battlefield, return a creature you control to its owner's hand.",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Dinosaur spells you cast cost {1} less to cast.",0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"{W}{W}: Knight of Dawn gains protection from the color of your choice until end of turn.",0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"{2}{B}, Exile an Elf card from your graveyard: Scarred Vinebreeder gets +3/+3 until end of turn.",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Prevent all damage that would be dealt to Champion Lancer by creatures.",0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Searing Blood deals 2 damage to target creature. When that creature dies this turn, Searing Blood deals 3 damage to the creature's controller.",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"At the beginning of your upkeep, put a land card from your library chosen at random onto the battlefield.",0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Exile all creatures you control, then reveal cards from the top of your library until you reveal that many creature cards. Put all creature cards revealed this way onto the battlefield, then shuffle the rest of the revealed cards into your library.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
-"{T}: Add {C} to your mana pool.",0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"{4}: Dread Statuary becomes a 4/2 Golem artifact creature until end of turn. It's still a land.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
-"Whenever another green creature enters the battlefield under your control, put a +1/+1 counter on target creature.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
-"Equipped creature gets +2/+2.",0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"As long as equipped creature is legendary, it has hexproof. (It can't be the target of spells or abilities your opponents control.)",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Converge — Search your library for a creature, instant, or sorcery card with converted mana cost less than or equal to the number of colors of mana spent to cast Bring to Light, exile that card, then shuffle your library. You may cast that card without paying its mana cost.",0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"When Lamplighter of Selhoff enters the battlefield, if you control another Zombie, you may draw a card. If you do, discard a card.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
-"Devoid (This card has no color.)",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0
-"{2}{C}: Exile another target creature, then return it to the battlefield tapped under its owner's control. ({C} represents colorless mana.)",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Temple of Triumph enters the battlefield tapped.",0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"When Temple of Triumph enters the battlefield, scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
-"{T}: Add {R} or {W} to your mana pool.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
-"When Rotting Rats enters the battlefield, each player discards a card.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
-"Unearth {1}{B} ({1}{B}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
-"Heroic — Whenever you cast a spell that targets Sage of Hours, put a +1/+1 counter on it.",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Remove all +1/+1 counters from Sage of Hours: For each five counters removed this way, take an extra turn after this one.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Whenever Lava Runner becomes the target of a spell or ability, that spell or ability's controller sacrifices a land.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0
-"{T}: Add {G} to your mana pool.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
-"At the beginning of each upkeep, if no spells were cast last turn, transform Scorned Villager.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
-"When Cragganwick Cremator enters the battlefield, discard a card at random. If you discard a creature card this way, Cragganwick Cremator deals damage equal to that card's power to target player.",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"{1}, {T}, Discard a card: You gain 4 life.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
-"{1}, {T}, Pay 1 life: Create a 0/1 white Goat creature token.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
-"{1}, {T}, Sacrifice a creature: Return target artifact card from your graveyard to your hand.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0
-"{1}, {T}, Sacrifice an artifact: Draw a card.",0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
-"When Exiled Boggart dies, discard a card.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
-"Intimidate (This creature can't be blocked except by artifact creatures and/or creatures that share a color with it.)",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
-"Whenever Academy Raider deals combat damage to a player, you may discard a card. If you do, draw a card.",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Enchanted creature has At the beginning of your upkeep.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0
-"Untap all creatures. Until end of turn, whenever a creature an opponent controls blocks, draw a card.",0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
-"Draw a card.",0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
-"At the beginning of each player's upkeep, if that player controls more lands than each other player, the player creates a 1/1 green Saproling creature token.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
-"{T}: Gravel Slinger deals 1 damage to target attacking or blocking creature.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
-"Morph {1}{W} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)",0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Creatures you control get +1/+1 and gain lifelink until end of turn. Untap those creatures.",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"All creatures gain fear until end of turn. (They can't be blocked except by artifact creatures and/or black creatures.)",1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Cycling {1}{B} ({1}{B}, Discard this card: Draw a card.)",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
-"When you cycle Dirge of Dread, you may have target creature gain fear until end of turn.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0
-"Sacrifice an artifact: Megatog gets +3/+3 and gains trample until end of turn.",0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"{U}: Giant Crab gains shroud until end of turn. (It can't be the target of spells or abilities.)",0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
-"Reveal the top five cards of your library. Put up to two instant and/or sorcery cards from among them into your hand and the rest into your graveyard.",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Metalcraft — Razorfield Rhino gets +2/+2 as long as you control three or more artifacts.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
-"You may discard Circling Vultures any time you could cast an instant.",0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"At the beginning of your upkeep, sacrifice Circling Vultures unless you exile the top creature card of your graveyard.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
-"{2}, {T}, Sacrifice Vial of Dragonfire: Vial of Dragonfire deals 2 damage to target creature.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
-"Reach (This creature can block creatures with flying.)",0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
-"Welding Sparks deals X damage to target creature, where X is 3 plus the number of artifacts you control.",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"As Null Chamber enters the battlefield, you and an opponent each choose a card name other than a basic land card name.",0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"You gain 2 life for each Plains you control.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0
-"Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-"{2}: Choose a creature you control. It becomes a copy of target creature except for its name.",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"{T}: Add {C} to your mana pool.",0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"{T}: Add {B} or {R} to your mana pool. Cinder Marsh doesn't untap during your next untap step.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
-"When you set this scheme in motion, it deals 3 damage to up to one target creature. Create a 3/3 black Horror creature token.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0
-"Destroy target artifact or enchantment.",0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
-"Investigate. (Create a colorless Clue artifact token with {2}",0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Multicolored creatures you control have trample.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
-"Forked Lightning deals 4 damage divided as you choose among one, two, or three target creatures.",0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"{U}, {T}, Discard a card: Return target permanent you control to its owner's hand.",0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Whenever Yuan Shao's Infantry attacks alone, Yuan Shao's Infantry can't be blocked this combat.",0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
-"{W/U}: Parapet Watchers gets +0/+1 until end of turn.",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"{2}{R}, Sacrifice Ruinous Gremlin: Destroy target artifact.",0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"{T}: Prevent the next 3 damage that would be dealt to target creature this turn. Activate this ability only if you have more cards in hand than each opponent.",0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
-"When Raised by Wolves enters the battlefield, create two 2/2 green Wolf creature tokens.",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Enchanted creature gets +1/+1 for each Wolf you control.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
-"{U}, Sacrifice Hydromorph Gull: Counter target spell that targets a creature you control.",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Tap up to two target creatures.",0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
-"Cycling {W} ({W}, Discard this card: Draw a card.)",0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Whenever a player taps a Mountain, Forest, or Plains for mana, that player adds one mana to his or her mana pool of any type that land produced.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0
-"Fading 4 (This creature enters the battlefield with four fade counters on it. At the beginning of your upkeep, remove a fade counter from it. If you can't, sacrifice it.)",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+Sentence,Feature
+"Whenever Hungry Spriggan attacks, it gets +3/+3 until end of turn.",00000000000100000000000000000
+"Whenever a creature you control dies, you gain life equal to that creature's toughness.",00000000000000000000010000000
+"When Keiga, the Tide Star dies, gain control of target creature.",00000100000000000000000000000
+"Destroy target artifact or enchantment, then populate. (Create a token that's a copy of a creature token you control.)",00000010000000000100000000000
+"When Razor Hippogriff enters the battlefield, return target artifact card from your graveyard to your hand. You gain life equal to that card's converted mana cost.",00000000000000000000010000000
+"Target creature gets -5/-5 until end of turn.",10000000000000000000000000000
+"Target opponent puts the top thirteen cards of his or her library into his or her graveyard.",00000000000000000000000000010
+"When Onulet dies, you gain 2 life.",00000000000000000000010000000
+"Draw X cards. For each card drawn this way, discard a card unless you sacrifice a permanent.",00000000000000000000001010000
+"Enchant creature, At the beginning of your upkeep, put a +1/+1 counter on enchanted creature.",00010000100000000000000000000
+"When enchanted creature attacks or blocks, sacrifice Primal Cocoon.",00000000000010000000000000000
+"Target creature gains protection from artifacts until end of turn.",00000000000001000000000000000
+"Draw a card.",00000000000000000000000010000
+"Whenever a creature enters the battlefield, that creature's controller may have it deal damage equal to its power to target creature or player of his or her choice.",00000000010000000000000000000
+"Draw a card for each creature card in your graveyard.",00000000000000000000000010000
+"When Nightshade Assassin enters the battlefield, you may reveal X black cards in your hand. If you do, target creature gets -X/-X until end of turn.",10000000000000000000000000000
+"{T}: Add {C} to your mana pool.",00000000000000000000000100000
+"{T}: Untap target attacking creature an opponent controls and remove it from combat.",00000000001000000000000000000
+"Whenever Hydra Omnivore deals combat damage to an opponent, it deals that much damage to each other opponent.",00000000000000000000010000000
+"Wu Warship can't attack unless defending player controls an Island.",00000000000001000000000000000
+"{3}: Search your library for a Sliver card, reveal that card, and put it into your hand. Then shuffle your library.",00000000000000000000000000100
+"{3}: Gain control of target Sliver. (This effect lasts indefinitely.)",00000100000000000000000000000
+"When Markov Warlord enters the battlefield, up to two target creatures can't block this turn.",00100000000000000000000000000
+"Forestwalk (This creature can't be blocked as long as defending player controls a Forest.)",00000000000001000000000000000
+"Discard a card: Putrid Imp gains flying until end of turn.",00000000000001000000000000000
+"{2}{B}: Regenerate Asphodel Wanderer.",00000000000001000000000000000
+"When Akki Blizzard-Herder dies, each player sacrifices a land.",00000000000000000000000001000
+"{T}: Untap target attacking creature. Prevent all combat damage that would be dealt to and dealt by that creature this turn.",00100000001000000000000000000
+"Whenever Serra Inquisitors blocks or becomes blocked by one or more black creatures, Serra Inquisitors gets +2/+0 until end of turn.",00000000000100000000000000000
+"Prevent all combat damage that would be dealt this turn by attacking creatures.",00000000000000000100000000000
+"Regenerate target creature. Draw a card. (The next time the creature would be destroyed this turn, it isn't. Instead tap it, remove all damage from it, and remove it from combat.)",00100000000000000000000010000
+"When Sin Collector enters the battlefield, target opponent reveals his or her hand. You choose an instant or sorcery card from it and exile that card.",00000001000000000000000000000
+"Enchant creature, Enchanted creature gets +4/+4, has flying and first strike, and is an Angel in addition to its other types.",10100000100000000000000000000
+"When enchanted creature dies, return Angelic Destiny to its owner's hand.",00000000000010000000000000000
+"Create a token that's a copy of target creature you control.",00001000000000000000000000000
+"When Returned Reveler dies, each player puts the top three cards of his or her library into his or her graveyard.",00000000000000000000000000010
+"Destroy six target creatures.",00000010000000000000000000000
+"{B}, Sacrifice Pus Kami: Destroy target nonblack creature.",00000010000000000000000000000
+"{2}{B}, Sacrifice a creature: Each other player sacrifices a creature.",00000000000000000000000001000
+"{2}{R}, Sacrifice an artifact: Each other player sacrifices an artifact.",00000000000000000000000001000
+"{2}{G}, Sacrifice an enchantment: Each other player sacrifices an enchantment.",00000000000000000000000001000
+"Wither (This deals damage to creatures in the form of -1/-1 counters.)",00000000000001000000000000000
+"{1}{B}: Regenerate Cinderbones.",00000000000001000000000000000
+"Attacking creatures you control have first strike.",00000000000000000010000000000
+"Whenever a Vampire you control deals combat damage to a player, put a +1/+1 counter on it.",00000000000000100000000000000
+"Madness {2}{R} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)",00000000000001000000000000000
+"Ursine Fylgja enters the battlefield with four healing counters on it.",00000000000000100000000000000
+"Remove a healing counter from Ursine Fylgja: Prevent the next 1 damage that would be dealt to Ursine Fylgja this turn.",00000000000000100000000000000
+"{2}{W}: Put a healing counter on Ursine Fylgja.",00000000000000100000000000000
+"Creature cards can't enter the battlefield from graveyards or libraries.",00000000000000000100000000000
+"Players can't cast spells from graveyards or libraries.",00000000000000000100000000000
+"{R}: Flowstone Salamander deals 1 damage to target creature blocking it.",00000000010000000000000000000
+"Morph {3}{R} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)",00000000000001000000000000000
+"When Thalia's Lancers enters the battlefield, you may search your library for a legendary card, reveal it, put it into your hand, then shuffle your library.",00000000000000000000000000100
+"Equipped creature has Unattach Blinding Powder: Prevent all combat damage that would be dealt to this creature this turn.",00100000000000000000000000000
+"Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)",00000000100000000000000000000
+"{T}: Add {C} to your mana pool.",00000000000000000000000100000
+"{T}: Put a charge counter on Mirrodin's Core.",00000000000000100000000000000
+"{T}, Remove a charge counter from Mirrodin's Core: Add one mana of any color to your mana pool.",00000000000000000000000100000
+"{T}: Target player loses 1 life.",00000000000000000000010000000
+"Exile target creature card from a graveyard. Create a 2/2 black Zombie creature token.",00000001000000000001000000000
+"Forestwalk (This creature can't be blocked as long as defending player controls a Forest.)",00000000000001000000000000000
+"{T}: Target land becomes the basic land type of your choice until end of turn.",00100000000000000000000000000
+"You gain X life if {G} was spent to cast Dawnglow Infusion and X life if {W} was spent to cast it. (Do both if {G}{W} was spent.)",00000000000000000000010000000
+"{3}: Urza deals 1 damage to target creature or player.",00000000010000000000000000000
+"Rolling Temblor deals 2 damage to each creature without flying.",00000000010000000000000000000
+"Flashback {4}{R}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",00000000000001000000000000000
+"Return target creature card from your graveyard to your hand.",01000000000000000000000000000
+"Recover {2}{B} (When a creature is put into your graveyard from the battlefield, you may pay {2}{B}. If you do, return this card from your graveyard to your hand. Otherwise, exile this card.)",00000000000001000000000000000
+"Search your library for up to two basic land cards and reveal them. Put one into your hand and the other into your graveyard. Then shuffle your library.",00000000000000000000000000100
+"Flash (You may cast this spell any time you could cast an instant.)",00000000000001000000000000000
+"Whenever you cast a spell, you may return Voidmage Husher to its owner's hand.",00000000000010000000000000000
+"{T}: Switch target creature's power and toughness until end of turn.",10000000000000000000000000000
+"If a Zombie you control would deal combat damage to a player, instead that player puts that many cards from the top of his or her library into his or her graveyard.",00000000000000000000000000010
+"Whenever a creature card is put into an opponent's graveyard from his or her library, exile that card and create a 2/2 black Zombie creature token.",00000000000000000001000000000
+"{W}: Soltari Emissary gains shadow until end of turn. (It can block or be blocked by only creatures with shadow.)",00000000000001000000000000000
+"Whenever you cycle or discard a card, Pitiless Vizier gains indestructible until end of turn. (Damage and effects that say destroy don't destroy it. If its toughness is 0 or less, it's still put into its owner's graveyard.)",00000000000001000000000000000
+"Equipped creature has flying.",00100000000000000000000000000
+"Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)",00000000100000000000000000000
+"{3}{R}: Gain control of target creature an opponent controls until end of turn. Untap that creature. It gains haste until end of turn. Activate this ability only any time you could cast a sorcery.",00000100000000000000000000000
+"Creatures you control have hexproof. (They can't be the targets of spells or abilities your opponents control.)",00000000000000000100000000000
+"{1}{G}: Regenerate target creature.",00100000000000000000000000000
+"Return each creature that dealt damage this turn to its owner's hand.",01000000000000000000000000000
+"At the beginning of your upkeep, sacrifice a non-Zombie creature, then create a 2/2 black Zombie creature token.",00000000000000000001000001000
+"{2}: Put the top card of your graveyard on the bottom of your library.",01000000000000000000000000000
+"{0}: Until end of turn, Jodah's Avenger gets -1/-1 and gains your choice of double strike, protection from red, vigilance, or shadow. (A creature with shadow can block or be blocked by only creatures with shadow.)",00000000000101000000000000000
+"+1: Put a loyalty counter on Gideon, Champion of Justice for each creature target opponent controls.",00000000000000100000000000000
+"0: Until end of turn, Gideon, Champion of Justice becomes a Human Soldier creature with power and toughness each equal to the number of loyalty counters on him and gains indestructible. He's still a planeswalker. Prevent all damage that would be dealt to him this turn.",00000000000001000000000000000
+"{1}: Look at the top three cards of your library, then put them back in any order.",00000000000000000000000000001
+"{T}: Draw a card, then put Sensei's Divining Top on top of its owner's library.",00000000000000000000000010000
+"As an additional cost to cast Restless Dreams, discard X cards.",00000000000000000000001000000
+"Return X target creature cards from your graveyard to your hand.",01000000000000000000000000000
+"Whenever an Island an opponent controls becomes tapped, you may gain 1 life.",00000000000000000000010000000
+"({T}: Add {U} or {R} to your mana pool.)",00000000000000000000000100000
+"Dauntless River Marshal gets +1/+1 as long as you control an Island.",00000000000100000000000000000
+"{3}{U}: Tap target creature.",00000000001000000000000000000
+"Until end of turn, all creatures gain {T}: This creature deals damage equal to its power to target creature.",00100000000000000000000000000
+"Enchant creature, When Knightly Valor enters the battlefield, create a 2/2 white Knight creature token with vigilance. (Attacking doesn't cause it to tap.)",00000000000000000001000000000
+"Enchanted creature gets +2/+2 and has vigilance.",10100000000000000000000000000
+"Whenever Dromosaur blocks or becomes blocked, it gets +2/-2 until end of turn.",00000000000100000000000000000
+"Destroy target creature. Its controller loses 2 life.",00000010000000000000010000000
+"At the beginning of your upkeep, you may put the top card of your library into your graveyard.",00000000000000000000000000010
+"Whenever Ohran Viper deals combat damage to a creature, destroy that creature at end of combat.",00000010000000000000000000000
+"Whenever Ohran Viper deals combat damage to a player, you may draw a card.",00000000000000000000000010000
+"Flash (You may cast this spell any time you could cast an instant.)",00000000000001000000000000000
+"{3}: Target green creature gets +1/+1 until end of turn.",10000000000000000000000000000
+"Trusty Companion can't attack alone.",00000000000001000000000000000
+"Dimir Guildgate enters the battlefield tapped.",00000000000000000000100000000
+"{T}: Add {U} or {B} to your mana pool.",00000000000000000000000100000
+"When Gladehart Cavalry enters the battlefield, support 6. (Put a +1/+1 counter on each of up to six other target creatures.)",00010000000000000000000000000
+"Whenever a creature you control with a +1/+1 counter on it dies, you gain 2 life.",00000000000000000000010000000
+"{8}, {T}: Tower of Calamities deals 12 damage to target creature.",00000000010000000000000000000
+"When Mwonvuli Beast Tracker enters the battlefield, search your library for a creature card with deathtouch, hexproof, reach, or trample and reveal it. Shuffle your library and put that card on top of it.",00000000000000000000000000100
+"At the beginning of each player's upkeep, Power Surge deals X damage to that player, where X is the number of untapped lands he or she controlled at the beginning of this turn.",00000000000000000000010000000
+"{1}{R}: Hematite Golem gets +2/+0 until end of turn.",00000000000100000000000000000
+"When Sharuum the Hegemon enters the battlefield, you may return target artifact card from your graveyard to the battlefield.",01000000000000000000000000000
+"Destroy target enchantment.",00000010000000000000000000000
+"{T}: Add {C} to your mana pool.",00000000000000000000000100000
+"{W/U}, {T}: Add {W}{W}, {W}{U}, or {U}{U} to your mana pool.",00000000000000000000000100000
+"When you set this scheme in motion, each opponent's life total becomes the lowest life total among your opponents.",00000000000000000000010000000
+"{1}, Sacrifice Traveler's Amulet: Search your library for a basic land card, reveal it, and put it into your hand. Then shuffle your library.",00000000000000000000000000100
+"Whenever another creature enters the battlefield, its controller loses 1 life.",00000000000000000000010000000
+"When you set this scheme in motion, choose an opponent with the highest life total among your opponents. That player loses 7 life.",00000000000000000000010000000
+"{T}: Target creature gets +1/+1 until end of turn.",10000000000000000000000000000
+"Whenever you cast a spell, you may untap Leonin Battlemage.",00000000000000010000000000000
+"Each player returns all creature cards from his or her graveyard to the battlefield.",01000000000000000000000000000
+"{T}: Prevent the next 1 damage that would be dealt to target creature or player this turn.",00100000000000000000000000000
+"Whenever you cast a white spell, Loyal Gyrfalcon loses defender until end of turn.",00000000000001000000000000000
+"{T}: Add {C} to your mana pool.",00000000000000000000000100000
+"{1}, {T}: Attacking creatures get +1/+0 until end of turn.",10000000000000000000000000000
+"When Glint Hawk enters the battlefield, sacrifice it unless you return an artifact you control to its owner's hand.",01000000000000000000000000000
+"Triton Shorestalker can't be blocked.",00000000000001000000000000000
+"Target creature has base power and toughness 1/1 until end of turn.",10000000000000000000000000000
+"Other creatures you control get +0/+2 and have vigilance.",10100000000000000000000000000
+"Whenever Vengeful Dead or another Zombie dies, each opponent loses 1 life.",00000000000000000000010000000
+"Infect (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)",00000000000001000000000000000
+"Discard a card, Sacrifice Overeager Apprentice: Add {B}{B}{B} to your mana pool.",00000000000000000000011000000
+"{W}, {T}: Target blocking creature gets +2/+2 until end of turn.",10000000000000000000000000000
+"Reach (This creature can block creatures with flying.)",00000000000001000000000000000
+"Evolve (Whenever a creature enters the battlefield under your control, if that creature has greater power or toughness than this creature, put a +1/+1 counter on this creature.)",00000000000000100000000000000
+"Enchant creature, Enchanted creature gets +2/+4.",10000000100000000000000000000
+"{G}: Regenerate Locust Swarm.",00000000000001000000000000000
+"{G}: Untap Locust Swarm. Activate this ability only once each turn.",00000000000000010000000000000
+"Each opponent loses 3 life. You gain life equal to the life lost this way.",00000000000000000000010000000
+"Whenever Arashin Foremost enters the battlefield or attacks, another target Warrior creature you control gains double strike until end of turn.",00100000000000000000000000000
+"Other Minotaur creatures you control have deathtouch.",00100000000000000000000000000
+"{R}: Avatar of Fury gets +1/+0 until end of turn.",00000000000100000000000000000
+"{T}: Add {G} to your mana pool.",00000000000000000000000100000
+"Islandwalk (This creature can't be blocked as long as defending player controls an Island.)",00000000000001000000000000000
+"Whenever Colossal Whale attacks, you may exile target creature defending player controls until Colossal Whale leaves the battlefield. (That creature returns under its owner's control.)",01000000000000000000000000000
+"Target player reveals his or her hand. You choose a Spirit or Arcane card from it. That player discards that card.",00000000000000000000001000000
+"Swampwalk (This creature can't be blocked as long as defending player controls a Swamp.)",00000000000001000000000000000
+"When Blistergrub dies, each opponent loses 2 life.",00000000000000000000010000000
+"Counter target spell. Its controller discards a card.",01000000000000000000001000000
+"{R}: Flowstone Salamander deals 1 damage to target creature blocking it.",00000000010000000000000000000
+"Create a 6/6 green Wurm creature token.",00000000000000000001000000000
+"Flashback {3}{G} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",00000000000001000000000000000
+"{2}: Narstad Scrapper gets +1/+0 until end of turn.",00000000000100000000000000000
+"{U/R}: Switch Crag Puca's power and toughness until end of turn.",00000000000100000000000000000
+"Mountain Valley enters the battlefield tapped.",00000000000000000000100000000
+"{T}, Sacrifice Mountain Valley: Search your library for a Mountain or Forest card and put it onto the battlefield. Then shuffle your library.",00000000000000000000000000100
+"{T}: Prevent the next 1 damage that would be dealt to target creature or player this turn.",00100000000000000000000000000
+"Spike Rogue enters the battlefield with two +1/+1 counters on it.",00000000000000100000000000000
+"{2}, Remove a +1/+1 counter from Spike Rogue: Put a +1/+1 counter on target creature.",00010000000000100000000000000
+"{2}, Remove a +1/+1 counter from a creature you control: Put a +1/+1 counter on Spike Rogue.",00010000000000100000000000000
+"Create three 2/2 white Knight creature tokens. Exile them at the beginning of the next cleanup step.",00000000000000000001000000000
+"Protection from everything",00000000000001000000000000000
+"If Progenitus would be put into a graveyard from anywhere, reveal Progenitus and shuffle it into its owner's library instead.",00000000000010000000000000000
+"{2}: Target white or black creature gains flying until end of turn. (It can't be blocked except by creatures with flying or reach.)",00100000000000000000000000000
+"Destroy target land. Create a 1/1 red Goblin creature token.",00000010000000000001000000000
+"{4}, {T}: You may put a creature card from your hand onto the battlefield.",01000000000000000000000000000
+"Ember Beast can't attack or block alone.",00000000000001000000000000000
+"Other Goblin creatures you control get +1/+1.",10000000000000000000000000000
+"{T}: Regenerate another target Goblin.",00100000000000000000000000000
+"Target creature gets +1/+0 and gains first strike until end of turn.",10100000000000000000000000000
+"Draw a card.",00000000000000000000000010000
+"Whenever a player taps an Island for mana, Scald deals 1 damage to that player.",00000000000000000000010000000
+"Burning Oil deals 3 damage to target attacking or blocking creature.",00000000010000000000000000000
+"When Fleetwheel Cruiser enters the battlefield, it becomes an artifact creature until end of turn.",00000000000001000000000000000
+"When Ranger of Eos enters the battlefield, you may search your library for up to two creature cards with converted mana cost 1 or less, reveal them, and put them into your hand. If you do, shuffle your library.",00000000000000000000000000100
+"When Hunted Troll enters the battlefield, target opponent creates four 1/1 blue Faerie creature tokens with flying.",00000000000000000001000000000
+"{G}: Regenerate Hunted Troll.",00000000000001000000000000000
+"Return X target creature cards from your graveyard to your hand.",01000000000000000000000000000
+"{1}: Untap Staff of Domination.",00000000000000010000000000000
+"{2}, {T}: You gain 1 life.",00000000000000000000010000000
+"{3}, {T}: Untap target creature.",00000000001000000000000000000
+"{4}, {T}: Tap target creature.",00000000001000000000000000000
+"{5}, {T}: Draw a card.",00000000000000000000000010000
+"Whenever a creature you control deals combat damage to a player, you may pay {5}. If you do, create a 5/5 red Dragon creature token with flying.",00000000000000000001000000000
+"Sacrifice a Human: Regenerate Fiend of the Shadows.",00100000000000000000000001000
+"{T}: Add {G}{G} to your mana pool.",00000000000000000000000100000
+"Destroy target land.",00000010000000000000000000000
+"Cycling {2} ({2}, Discard this card: Draw a card.)",00000000000000000000001010000
+"When Leonin Snarecaster enters the battlefield, you may tap target creature.",00000000001000000000000000000
+"{1}{G}: Regenerate target green creature.",00100000000000000000000000000
+"Rusted Sentinel enters the battlefield tapped.",00000000000000000001000000000
+"Whenever another creature dies, Rage Thrower deals 2 damage to target player.",00000000000000000000010000000
+"When Alaborn Zealot blocks a creature, destroy that creature and Alaborn Zealot.",00000010000000000000000000000
+"Infect (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)",00000000000001000000000000000
+"At the beginning of your upkeep, return a black creature you control to its owner's hand.",01000000000000000000000000000
+"Each noncreature artifact is an artifact creature with power and toughness each equal to its converted mana cost. (Equipment that's a creature can't equip a creature.)",00000000000000000000000100000
+"Sacrifice any number of lands. Search your library for up to that many land cards, put them onto the battlefield tapped, then shuffle your library.",00000000000000000100000000000
+"When Glarewielder enters the battlefield, up to two target creatures can't block this turn.",00000000000000000000000000100
+"Evoke {1}{R} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters the battlefield.)",00100000000000000000000000000
+"Heroic — Whenever you cast a spell that targets Wingsteed Rider, put a +1/+1 counter on Wingsteed Rider.",00000000000001000000000000000
+"Whenever an opponent plays a land, you may put a land card from your hand onto the battlefield.",00000000000000100000000000000
+"Haste (This creature can attack the turn it comes under your control.)",00000000000000000000100000000
+"Sylvan Yeti's power is equal to the number of cards in your hand.",00000000000001000000000000000
+"Provoke (Whenever this creature attacks, you may have target creature defending player controls untap and block it if able.)",10000000000000000000000000000
+"Ruins of Oran-Rief enters the battlefield tapped.",00000000000001000000000000000
+"{T}: Add {C} to your mana pool. ({C} represents colorless mana.)",00000000000000000000100000000
+"{T}: Put a +1/+1 counter on target colorless creature that entered the battlefield this turn.",00000000000000000000000100000
+"Creatures can't block.",00010000000000000000000000000
+"Fibrous Entangler must be blocked if able.",00000000000000000100000000000
+"Fibrous Entangler can block an additional creature each combat.",00000000000001000000000000000
+"When Oath of Liliana enters the battlefield, each opponent sacrifices a creature.",00000000000001000000000000000
+"At the beginning of each end step, if a planeswalker entered the battlefield under your control this turn, create a 2/2 black Zombie creature token.",00000000000000000000000001000
+"Discard a card at random: Pardic Lancer gets +1/+0 and gains first strike until end of turn.",00000000000000000001000000000
+"Whenever a player casts a spell, you may put a +1/+1 counter on Forgotten Ancient.",10000000000001000000001000000
+"At the beginning of your upkeep, you may move any number of +1/+1 counters from Forgotten Ancient onto other creatures.",00000000000000100000000000000
+"When Dakmor Lancer enters the battlefield, destroy target nonblack creature.",00000100000000100000000000000
+"Fear (This creature can't be blocked except by artifact creatures and/or black creatures.)",00000010000000000000000000000
+"At the beginning of your upkeep, you may search your library for a Rat card, reveal it, and put it into your hand. If you do, shuffle your library.",00000000000001000000000000000
+"When Lord of Tresserhorn enters the battlefield, you lose 2 life, you sacrifice two creatures, and target opponent draws two cards.",00000000000000000000000000100
+"{B}: Regenerate Lord of Tresserhorn.",00000000000000000000001011000
+"Return target creature to its owner's hand.",00000000000001000000000000000
+"Draw a card.",01000000000000000000000000000
+"When Verdant Haven enters the battlefield, you gain 2 life.",00000000000000000000000010000
+"Whenever enchanted land is tapped for mana, its controller adds one mana of any color to his or her mana pool (in addition to the mana the land produces).",00000000000000000000010000000
+"Magosi, the Waterveil enters the battlefield tapped.",00000000000000000000000100000
+"{T}: Add {U} to your mana pool.",00000000000000000000100000000
+"{U}, {T}: Put an eon counter on Magosi, the Waterveil. Skip your next turn.",00000000000000000000000100000
+"{T}, Remove an eon counter from Magosi, the Waterveil and return it to its owner's hand: Take an extra turn after this one.",00000000000000100100000000000
+"Echo {3}{W} (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay its echo cost.)",00000000000000100100000000000
+"When Radiant's Dragoons enters the battlefield, you gain 5 life.",00000000000001000000000000000
+"Return up to three target artifacts and/or creatures to their owners' hands.",00000000000000000000010000000
+"You may cast a card with converted mana cost 4 or less from your hand without paying its mana cost.",01000000000000000000000000000
+"Whenever Infernal Medusa blocks a creature, destroy that creature at end of combat.",01000000000000000000000000000
+"Whenever Infernal Medusa becomes blocked by a non-Wall creature, destroy that creature at end of combat.",00000010000000000000000000000
+"Level up {3}{R} ({3}{R}: Put a level counter on this. Level up only as a sorcery.)",00000010000000000000000000000
+"{T}: Brimstone Mage deals 3 damage to target creature or player.",00000000000000100000000000000
+"Storm Sculptor can't be blocked.",00000000010000000000000000000
+"When Storm Sculptor enters the battlefield, return a creature you control to its owner's hand.",00000000000001000000000000000
+"Dinosaur spells you cast cost {1} less to cast.",01000000000000000000000000000
+"{W}{W}: Knight of Dawn gains protection from the color of your choice until end of turn.",00100000000000000000000000000
+"{2}{B}, Exile an Elf card from your graveyard: Scarred Vinebreeder gets +3/+3 until end of turn.",00000000000001000000000000000
+"Prevent all damage that would be dealt to Champion Lancer by creatures.",00000001000100000000000000000
+"Searing Blood deals 2 damage to target creature. When that creature dies this turn, Searing Blood deals 3 damage to the creature's controller.",00000000000001000000000000000
+"At the beginning of your upkeep, put a land card from your library chosen at random onto the battlefield.",00000000010000000000000000000
+"Exile all creatures you control, then reveal cards from the top of your library until you reveal that many creature cards. Put all creature cards revealed this way onto the battlefield, then shuffle the rest of the revealed cards into your library.",00000000000000000000000000100
+"{T}: Add {C} to your mana pool.",01000001000000000000000000000
+"{4}: Dread Statuary becomes a 4/2 Golem artifact creature until end of turn. It's still a land.",00000000000000000000000100000
+"Whenever another green creature enters the battlefield under your control, put a +1/+1 counter on target creature.",00000000000000000001000000000
+"Equipped creature gets +2/+2.",00010000000000000000000000000
+"As long as equipped creature is legendary, it has hexproof. (It can't be the target of spells or abilities your opponents control.)",10000000000000000000000000000
+"Converge — Search your library for a creature, instant, or sorcery card with converted mana cost less than or equal to the number of colors of mana spent to cast Bring to Light, exile that card, then shuffle your library. You may cast that card without paying its mana cost.",00100000000000000000000000000
+"When Lamplighter of Selhoff enters the battlefield, if you control another Zombie, you may draw a card. If you do, discard a card.",00000000000000000000000000100
+"Devoid (This card has no color.)",00000000000000000000001010000
+"{2}{C}: Exile another target creature, then return it to the battlefield tapped under its owner's control. ({C} represents colorless mana.)",00000000000001000000000000000
+"Temple of Triumph enters the battlefield tapped.",01000001001000000000000000000
+"When Temple of Triumph enters the battlefield, scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)",00000000000000000000100000000
+"{T}: Add {R} or {W} to your mana pool.",00000000000000000000000000001
+"When Rotting Rats enters the battlefield, each player discards a card.",00000000000000000000000100000
+"Unearth {1}{B} ({1}{B}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)",00000000000000000000001000000
+"Heroic — Whenever you cast a spell that targets Sage of Hours, put a +1/+1 counter on it.",00000000000001000000000000000
+"Remove all +1/+1 counters from Sage of Hours: For each five counters removed this way, take an extra turn after this one.",00000000000000100000000000000
+"Whenever Lava Runner becomes the target of a spell or ability, that spell or ability's controller sacrifices a land.",00000000000000100100000000000
+"{T}: Add {G} to your mana pool.",00000000000000000000000001000
+"At the beginning of each upkeep, if no spells were cast last turn, transform Scorned Villager.",00000000000000000000000100000
+"When Cragganwick Cremator enters the battlefield, discard a card at random. If you discard a creature card this way, Cragganwick Cremator deals damage equal to that card's power to target player.",00000000000001000000000000000
+"{1}, {T}, Discard a card: You gain 4 life.",00000000000000000000011000000
+"{1}, {T}, Pay 1 life: Create a 0/1 white Goat creature token.",00000000000000000000011000000
+"{1}, {T}, Sacrifice a creature: Return target artifact card from your graveyard to your hand.",00000000000000000001010000000
+"{1}, {T}, Sacrifice an artifact: Draw a card.",01000000000000000000000001000
+"When Exiled Boggart dies, discard a card.",00000000000000000000000011000
+"Intimidate (This creature can't be blocked except by artifact creatures and/or creatures that share a color with it.)",00000000000000000000001000000
+"Whenever Academy Raider deals combat damage to a player, you may discard a card. If you do, draw a card.",00000000000001000000000000000
+"Enchanted creature has At the beginning of your upkeep.",00000000000000000000001010000
+"Untap all creatures. Until end of turn, whenever a creature an opponent controls blocks, draw a card.",00000100000000000000000001000
+"Draw a card.",00000000001000000000000010000
+"At the beginning of each player's upkeep, if that player controls more lands than each other player, the player creates a 1/1 green Saproling creature token.",00000000000000000000000010000
+"{T}: Gravel Slinger deals 1 damage to target attacking or blocking creature.",00000000000000000001000000000
+"Morph {1}{W} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)",00000000010000000000000000000
+"Creatures you control get +1/+1 and gain lifelink until end of turn. Untap those creatures.",00000000000001000000000000000
+"All creatures gain fear until end of turn. (They can't be blocked except by artifact creatures and/or black creatures.)",10100000001000000000000000000
+"Cycling {1}{B} ({1}{B}, Discard this card: Draw a card.)",00000000000000000100000000000
+"When you cycle Dirge of Dread, you may have target creature gain fear until end of turn.",00000000000000000000001010000
+"Sacrifice an artifact: Megatog gets +3/+3 and gains trample until end of turn.",00100000000000000000000000000
+"{U}: Giant Crab gains shroud until end of turn. (It can't be the target of spells or abilities.)",00000000000101000000000001000
+"Reveal the top five cards of your library. Put up to two instant and/or sorcery cards from among them into your hand and the rest into your graveyard.",00000000000001000000000000000
+"Metalcraft — Razorfield Rhino gets +2/+2 as long as you control three or more artifacts.",00000000000000000000000000001
+"You may discard Circling Vultures any time you could cast an instant.",00000000000100000000000000000
+"At the beginning of your upkeep, sacrifice Circling Vultures unless you exile the top creature card of your graveyard.",00000000000000000000001000000
+"{2}, {T}, Sacrifice Vial of Dragonfire: Vial of Dragonfire deals 2 damage to target creature.",00000000000000000000000001000
+"Reach (This creature can block creatures with flying.)",00000000010000000000000001000
+"Welding Sparks deals X damage to target creature, where X is 3 plus the number of artifacts you control.",00000000000001000000000000000
+"As Null Chamber enters the battlefield, you and an opponent each choose a card name other than a basic land card name.",00000000010000000000000000000
+"You gain 2 life for each Plains you control.",00000000000000000000010100000
+"Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)",00000000000000000000010000000
+"{2}: Choose a creature you control. It becomes a copy of target creature except for its name.",00000000000001000000000000000
+"{T}: Add {C} to your mana pool.",00001000000000000000000000000
+"{T}: Add {B} or {R} to your mana pool. Cinder Marsh doesn't untap during your next untap step.",00000000000000000000000100000
+"When you set this scheme in motion, it deals 3 damage to up to one target creature. Create a 3/3 black Horror creature token.",00000000000000010000000100000
+"Destroy target artifact or enchantment.",00000000010000000001000000000
+"Investigate. (Create a colorless Clue artifact token with {2}",00000010000000000000000000000
+"Multicolored creatures you control have trample.",00000000000000000001000000000
+"Forked Lightning deals 4 damage divided as you choose among one, two, or three target creatures.",00100000000000000000000000000
+"{U}, {T}, Discard a card: Return target permanent you control to its owner's hand.",00000000010000000000000000000
+"Whenever Yuan Shao's Infantry attacks alone, Yuan Shao's Infantry can't be blocked this combat.",01000000000000000000001000000
+"{W/U}: Parapet Watchers gets +0/+1 until end of turn.",00000000000001000000000000000
+"{2}{R}, Sacrifice Ruinous Gremlin: Destroy target artifact.",00000000000100000000000000000
+"{T}: Prevent the next 3 damage that would be dealt to target creature this turn. Activate this ability only if you have more cards in hand than each opponent.",00000010000000000000000001000
+"When Raised by Wolves enters the battlefield, create two 2/2 green Wolf creature tokens.",00000000000001000000000000000
+"Enchanted creature gets +1/+1 for each Wolf you control.",00000000000000000001000000000
+"{U}, Sacrifice Hydromorph Gull: Counter target spell that targets a creature you control.",10000000000000000000000000000
+"Tap up to two target creatures.",01000000000000000000000001000
+"Cycling {W} ({W}, Discard this card: Draw a card.)",00000000001000000000000000000
+"Whenever a player taps a Mountain, Forest, or Plains for mana, that player adds one mana to his or her mana pool of any type that land produced.",00000000000000000000001010000
+"Fading 4 (This creature enters the battlefield with four fade counters on it. At the beginning of your upkeep, remove a fade counter from it. If you can't, sacrifice it.)",00000000000000000000000100000
+"Put a creature card from your hand into play under target opponent's control. That creature attacks each turn if able... and always attacks its controller.",01100000000000000000000000000
+"{T}: Add {C} to your mana pool.",00000000000000000000000100000
+"When War Priest of Thune enters the battlefield, you may destroy target enchantment.",00000010000000000000000000000
+"Gain control of target creature of an opponent's choice he or she controls.",00000100000000000000000000000
+"{B}{G}: Ebony Treefolk gets +1/+1 until end of turn.",00000000000100000000000000000
+"Creatures you control have haste.",00000000000000000100000000000
+"Whenever Goblin Assassin or another Goblin enters the battlefield, each player flips a coin. Each player whose coin comes up tails sacrifices a creature.",00000000000000000000000001000
+"{T}: Add {C} to your mana pool.",00000000000000000000000100000
+"{T}: Add one mana of any color to your mana pool. Spend this mana only to cast a creature spell of the chosen type, and that spell can't be countered.",00000000000000000000000100000
+"Morph {1}{G}{U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)",00000000000001000000000000000
+"When Icefeather Aven is turned face up, you may return another target creature to its owner's hand.",00000000000010000000000000000
+"Counter target artifact or enchantment spell.",01000000000000000000000000000
+"Kicker {1}{G} (You may pay an additional {1}{G} as you cast this spell.)",00000000000001000000000000000
+"Each other Warrior creature you control enters the battlefield with an additional +1/+1 counter on it.",00010000000000000000000000000
+"Each creature you control with a +1/+1 counter on it has trample.",00100000000000000000000000000
+"{3}: Feral Animist gets +X/+0 until end of turn, where X is its power.",00000000000100000000000000000
+"When Tsabo's Web enters the battlefield, draw a card.",00000000000000000000000010000
+"Each land with an activated ability that isn't a mana ability doesn't untap during its controller's untap step.",00000000001000000000000000000
+"Target creature gets +3/+3 until end of turn.",10000000000000000000000000000
+"{T}: Add {C} to your mana pool.",00000000000000000000000100000
+"{6}: Stalking Stones becomes a 3/3 Elemental artifact creature that's still a land. (This effect lasts indefinitely.)",00000000000000000001000000000
+"Echo {3} (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay its echo cost.)",00000000000001000000000000000
+"Sacrifice Ticking Gnomes: Ticking Gnomes deals 1 damage to target creature or player.",00000000010000000000000000000
+"At the beginning of your upkeep, if there are seven or more lands on the battlefield, sacrifice Impending Disaster and destroy all lands.",00000010000010000000000000000
+"{2}{G}: Look at the top three cards of your library. You may reveal a creature card from among them and put it into your hand. Put the rest on the bottom of your library in any order.",00000000000000000000000010001
+"Return target card from your graveyard to your hand.",01000000000000000000000000000
+"Destroy target multicolored permanent.",00000010000000000000000000000
+"Protection from multicolored.",00000000000001000000000000000
+"Whenever an opponent casts a multicolored spell, you gain 1 life.",00000000000000000000010000000
+"When Restoration Angel enters the battlefield, you may exile target non-Angel creature you control, then return that card to the battlefield under your control.",01000001000000000000000000000
+"Prevent all combat damage that would be dealt this turn.",00000000000000000010000000000
+"Ferocious — If you control a creature with power 4 or greater, instead prevent all combat damage that would be dealt this turn by creatures your opponents control.",00100000000000000000000000000
+"Kor Scythemaster has first strike as long as it's attacking.",00000000000001000000000000000
+"Add {R} to your mana pool for each Goblin on the battlefield.",00000000000000000000000100000
+"{2}, Return a land you control to its owner's hand: Target creature with power 2 or less can't be blocked this turn.",01100000000000000000000000000
+"{G}, Sacrifice Giant Caterpillar: Create a 1/1 green Insect creature token with flying named Butterfly at the beginning of the next end step.",00000000000010000001000000000
+"At the beginning of your upkeep, put the top ten cards of your library into your graveyard.",00000000000000000000000000010
+"Whenever you roll {CHAOS}, target player puts the top ten cards of his or her library into his or her graveyard.",00000000000000000000000000010
+"Enchant creature, Enchanted creature gets +4/+4.",10000000100000000000000000000
+"When enchanted creature becomes the target of a spell or ability, sacrifice Illusionary Armor.",00000000000010000000000000000
+"Protection from Elves.",00000000000001000000000000000
+"{1}{R}: Target creature attacks this turn if able.",00100000000000000000000000000
+"Multicolored creatures you control have vigilance.",00100000000000000000000000000
+"Exile the top card of your library. If it's a permanent card, you may put it onto the battlefield. If you do, repeat this process.",01000000000000000000000000000
+"Put any number of target creature cards from your graveyard on top of your library.",01000000000000000000000000000
+"Draw a card.",00000000000000000000000010000
+"Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.",00000000000000000000000000100
+"Cycling {2} ({2}, Discard this card: Draw a card.)",00000000000000000000001010000
+"{1}, {T}: You may tap or untap target permanent. Activate this ability only if you control four or more snow permanents.",00000000001000000000000000000
+"At the beginning of each player's draw step, that player draws an additional card.",00000000000000000000000010000
+"{3}, {T}: Create a 0/1 colorless Prism artifact creature token.",00000000000000000001000000000
+"Sacrifice a Prism token: Add one mana of any color to your mana pool.",00000000000000000000000101000
+"Temple of Plenty enters the battlefield tapped.",00000000000000010000000000000
+"When Temple of Plenty enters the battlefield, scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)",00000000000000000000000000001
+"{T}: Add {G} or {W} to your mana pool.",00000000000000000000000100000
+"Until end of turn, each creature you control becomes a black Shade and gains {B}: This creature gets +1/+1 until end of turn.""""",10100000000000000000000000000
+"Whenever Spincrusher blocks, put a +1/+1 counter on it.",00000000000000100000000000000
+"Remove a +1/+1 counter from Spincrusher: Spincrusher can't be blocked this turn.",00000000000001100000000000000
+"Bloodrush — {R}, Discard Skinbrand Goblin: Target attacking creature gets +2/+1 until end of turn.",10000000000000000000001000000
+"Target player puts the top five cards of his or her library into his or her graveyard.",00000000000000000000000000001
+"{2}{U}: Draw a card, then put a +1/+1 counter on Sphinx of Magosi.",00000000000000100000000010000
+"{1}{W}, {T}: Steadfast Armasaur deals damage equal to its toughness to target creature blocking or blocked by it.",00000000010000000000000000000
+"Creatures you control have hexproof. (They can't be the targets of spells or abilities your opponents control.)",00100000000000000000000000000
+"{1}{G}: Regenerate target creature.",00100000000000000000000000000
+"When Hurloon Shaman dies, each player sacrifices a land.",00000000000000000000000001000
+"Whenever a legendary permanent other than Yomiji, Who Bars the Way is put into a graveyard from the battlefield, return that card to its owner's hand.",01000000000000000000000000000
+"Sacrifice Selfless Spirit: Creatures you control gain indestructible until end of turn.",00100000000010000000000000000
+"Surge {1}{R} (You may cast this spell for its surge cost if you or a teammate has cast another spell this turn.)",00000000000001000000000000000
+"Menace (This creature can't be blocked except by two or more creatures.)",00000000000001000000000000000
+"Each opponent who cast a spell this turn can't attack with creatures.",00000000000000000100000000000
+"Each opponent who attacked with a creature this turn can't cast spells.",00000000000000000100000000000
+"Nonbasic lands don't untap during their controllers' untap steps.",00000000001000000000000000000
+"Whenever Dread Specter blocks or becomes blocked by a nonblack creature, destroy that creature at end of combat.",00000010000000000000000000000
+"Red creatures you control get +1/+0.",10000000000000000000000000000
+"White creatures you control get +0/+1.",10000000000000000000000000000
+"When Angel of Sanctions enters the battlefield, you may exile target nonland permanent an opponent controls until Angel of Sanctions leaves the battlefield.",00000001000000000000000000000
+"Counter target creature spell.",01000000000000000000000000000
+"Draw a card.",00000000000000000000000010000
+"As an additional cost to cast Vivisection, sacrifice a creature.",00000000000000000000000001000
+"Draw three cards.",00000000000000000000000010000
+"Sorin's Thirst deals 2 damage to target creature and you gain 2 life.",00000000010000000000010000000
+"Remove target creature defending player controls from combat. Creatures it was blocking that had become blocked by only that creature this combat become unblocked. You may have it block an attacking creature of your choice.",00100000000000000000000000000
+"Morph {2}{U}{U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)",00000000000001000000000000000
+"When Voidmage Apprentice is turned face up, counter target spell.",01000000000000000000000000000
+"If a red source would deal damage to you, prevent 2 of that damage.",00100000000000000000000000000
+"Put target land card from a graveyard onto the battlefield under your control.",01000000000000000000000000000
+"Search your library for an enchantment card and put it onto the battlefield. Then shuffle your library.",00000000000000000000000000100
+"Kicker {2}{W} (You may pay an additional {2}{W} as you cast this spell.)",00000000000001000000000000000
+"Affinity for artifacts (This spell costs {1} less to cast for each artifact you control.)",00000100000001000000000000000
+"Broodstar's power and toughness are each equal to the number of artifacts you control.",00000000000001000000000000000
+"Unattach all Equipment from target creature.",00000000000100000000000000000
+"Search your library for a basic land card and put that card onto the battlefield tapped. Then shuffle your library.",00000000100000000000000000000
+"Look at the top X cards of target opponent's library. Exile one of those cards and put the rest back on top of that player's library in any order.",00000000000000000000000000100
+"Enchanted creature gets +3/+2.",00000001000000000000000000001
+"When Parallax Dementia leaves the battlefield, destroy enchanted creature. That creature can't be regenerated.",10000000000000000000000000000
+"Whenever a creature you control dies, you draw a card and you lose 1 life.",00000010000000000000000000000
+"As Sol Grail enters the battlefield, choose a color.",00000000000000000000010010000
+"Cycling {2} ({2}, Discard this card: Draw a card.)",00100000001000000000000000000
+"{T}: Add {B} to your mana pool.",00000000000000000000001010000
