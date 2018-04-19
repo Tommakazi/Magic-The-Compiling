@@ -13,8 +13,16 @@ bg = pygame.image.load("oGameBoard.jpg")
 forest = pygame.image.load("Forest.jpg")
 forest = pygame.transform.scale(forest, (75, 100))
 forest3rect = pygame.Rect(80, 670, 75, 100)
+visionaryrect = pygame.Rect(175, 700, 75, 100)
+tuskerrect = pygame.Rect(250, 700, 75, 100)
 mystic = pygame.image.load("Mystic.jpg")
+visionary = pygame.image.load("visionary.jpg")
+packleader = pygame.image.load("packleader.jpg")
+tusker = pygame.image.load("tusker.jpg")
 mystic = pygame.transform.scale(mystic, (75, 100))
+visionary = pygame.transform.scale(visionary, (75, 100))
+tusker = pygame.transform.scale(tusker, (75, 100))
+packleader = pygame.transform.scale(packleader, (75, 100))
 lifeFont = pygame.font.SysFont("comicsansms", 19)
 manaFont = pygame.font.SysFont("comicsansms", 14)
 lifeTotal = lifeFont.render(str(playerOne.lifePoints), True, (0, 0, 0))
@@ -30,6 +38,17 @@ screen = pygame.display.set_mode((689, 800), pygame.RESIZABLE)
 done = False
 clock = pygame.time.Clock()
 angle = 90
+tapped = False
+tapped2 = False
+tapped3 = False
+x = 175
+y = 700
+
+x1 = 250
+y1 = 700
+
+x2 = 1000
+y2 = 1000
 
 
 while not done:
@@ -55,6 +74,10 @@ while not done:
     screen.blit(forest, (60, 670))
     screen.blit(forest, (80, 670))
     screen.blit(mystic, (40, 430))
+    screen.blit(visionary, (x, y))
+    screen.blit(tusker, (x1, y1))
+    screen.blit(packleader, (x2, y2))
+
 
     ev = pygame.event.get()
     for event in ev:
@@ -63,11 +86,30 @@ while not done:
             if forest3rect.collidepoint(mouse_coordinates):
                 print('Tap!')
                 forest = pygame.transform.rotate(forest, angle)
-                angle = 270
-                if angle >= 360:
+                if not tapped:
+                    playerOne.mana['Green'] += 3
+                    tapped = True
+                angle = 0
+                if angle > 90:
                     angle = 90
-                screen.blit(forest, (75, 100))
-                playerOne.mana['Green'] += 3
+                greenMana = manaFont.render(str(playerOne.mana['Green']), True, (255, 255, 255))
+                print(playerOne.mana['Green'])
+            if visionaryrect.collidepoint(mouse_coordinates):
+                if not tapped2:
+                    playerOne.mana['Green'] -= 1
+                    tapped2 = True
+                greenMana = manaFont.render(str(playerOne.mana['Green']), True, (255, 255, 255))
+                x = 115
+                y = 430
+                x2 = 325
+                y2 = 700
+            if tuskerrect.collidepoint(mouse_coordinates):
+                if not tapped3:
+                    playerOne.mana['Green'] -= 2
+                    tapped3 = True
+                greenMana = manaFont.render(str(playerOne.mana['Green']), True, (255, 255, 255))
+                x1 = 250
+                x2 = 430
 
         if event.type == pygame.QUIT:
             done = True
