@@ -17,8 +17,11 @@ visionaryrect = pygame.Rect(175, 700, 75, 100)
 tuskerrect = pygame.Rect(250, 700, 75, 100)
 mystic = pygame.image.load("Mystic.jpg")
 visionary = pygame.image.load("visionary.jpg")
+visionary = pygame.transform.scale(visionary, (75, 100))
 packleader = pygame.image.load("packleader.jpg")
+packleader = pygame.transform.scale(packleader, (75, 100))
 tusker = pygame.image.load("tusker.jpg")
+tusker = pygame.transform.scale(tusker, (75, 100))
 mystic = pygame.transform.scale(mystic, (75, 100))
 visionary = pygame.transform.scale(visionary, (75, 100))
 tusker = pygame.transform.scale(tusker, (75, 100))
@@ -75,8 +78,9 @@ while not done:
     screen.blit(forest, (80, 670))
     screen.blit(mystic, (40, 430))
     screen.blit(visionary, (x, y))
-    screen.blit(tusker, (x1, y1))
     screen.blit(packleader, (x2, y2))
+    screen.blit(tusker, (x1, y1))
+
 
 
     ev = pygame.event.get()
@@ -108,7 +112,7 @@ while not done:
                     playerOne.mana['Green'] -= 2
                     tapped3 = True
                 greenMana = manaFont.render(str(playerOne.mana['Green']), True, (255, 255, 255))
-                x1 = 250
+                x1 = 150
                 x2 = 430
 
         if event.type == pygame.QUIT:
