@@ -1,34 +1,32 @@
+
+
 class Player(object):
-    name = ""
-    mana = {"White":0, "Blue":0, "Black":0, "Red":0, "Green":0, }
-    lifePoints = 20
-    hasLost = False
 
+    def __init__(self):
+        self.name = ""
+        self.mana = {"White": 0, "Blue": 0, "Black": 0, "Red": 0, "Green": 0, "CM": 0}
+        self.lifePoints = 20
+        self.hasLost = False
+        self.controlled = []
 
-    def __init__(self, name, mana, lifePoints, hasLost):
-        self.name = name
-        self.mana = mana
-        self.lifePoints = lifePoints
-        self.hasLost = hasLost
-
-    def create_player(name):
-        mana = {"White": 0, "Blue": 0, "Black": 0, "Red": 0, "Green": 0, "Total": 0}
-        lifePoints = 20
-        hasLost = False
-        player = Player(name, mana, lifePoints, hasLost)
+    def create_player(self, name):
+        player = Player()
+        player.mana = {"White": 0, "Blue": 0, "Black": 0, "Red": 0, "Green": 0, "Total": 0}
+        player.lifePoints = 20
+        player.hasLost = False
         return player
 
-    def gainLife(Player, life):
+    def gainLife(self, Player, life):
         Player.lifePoints = Player.lifePoints + life
 
-    def loseLife(Player, life):
+    def loseLife(self, Player, life):
         Player.lifePoints = Player.lifePoints - life
 
-    def lose(Player):
+    def lose(self, Player):
         if Player.lifePoints <= 0:
             Player.hasLost = True
 
-    def getLife(Player):
+    def getLife(self, Player):
         return Player.lifePoints
 
 

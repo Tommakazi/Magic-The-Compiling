@@ -418,7 +418,7 @@ Sentence,Feature
 "Cycling {2} ({2}, Discard this card: Draw a card.)",00100000001000000000000000000
 "{T}: Add {B} to your mana pool.",00000000000000000000001010000
 "Drove of Elves's power and toughness are each equal to the number of green permanents you control.",00000000000100000000000000000
-""{T}: Add {G} to your mana pool.",00000000000000000000000100000
+"{T}: Add {G} to your mana pool.",00000000000000000000000100000
 "When Elvish Visionary enters the battlefield, draw a card.",00000000000000000000000010000
 "At the beginning of your upkeep, Force of Nature deals 8 damage to you unless you pay {G}{G}{G}{G}.",00000000000000000000010000000
 "Whenever another creature with power 3 or greater enters the battlefield under your control, you may draw a card.",00000000000000000000000010000
